@@ -6,7 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class SpringbootConditionApplication {
-
+     
     public static void main(String[] args) {
 //        启动Springboot的应用返回Spring的IOC容器
         ConfigurableApplicationContext context = SpringApplication.run(SpringbootConditionApplication.class, args);
